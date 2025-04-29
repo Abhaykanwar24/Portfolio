@@ -304,9 +304,12 @@ footer {
         margin-top: 10px;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap; /* Makes buttons wrap to next line if needed */
     }
 
     #controls button {
+        font-size: 12px;
+        padding: 6px 12px;
         margin: 5px;
     }
 
